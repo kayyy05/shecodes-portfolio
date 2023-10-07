@@ -3,6 +3,20 @@
   --secondary-color: white;
   --align: center;
 }
+
+@media (max-width: 587px) {
+  .yoga-home,
+  .yogurt-home {
+    padding-bottom: 40px;
+  }
+  .weather-home {
+    padding-top: 40px;
+  }
+
+  .button-one,
+  .button-two {
+  }
+}
 h3 {
   font-size: 25px;
   color: #784ec1;
